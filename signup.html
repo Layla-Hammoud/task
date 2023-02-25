@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,32 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
     <title>Sign up</title>
 </head>
+
 <body>
-    <form class="sign_up_form">
+    <form class="sign_up_form" id="sign_up_form">
         <h1>Sign up to start you journey with us</h1>
+        <p id="error_message"></p>
         <div class="input_section">
             <label for="name">First name</label><br>
-            <input type="text" id="name" name="name" value="name" class=><br>
+            <input type="text" id="name" name="name" placeholder="name" required><br>
         </div>
-            <div class="input_section">
+        <div class="input_section">
             <label for="name">Last name</label><br>
-            <input type="text" id="lastName" name="name" value="last name"><br>
-        </div>
+            <input type="text" id="lastName" name="name" placeholder="last name" required><br>
             <div class="input_section">
-            <label for="country">your country</label><br>       
-            <input type="country" id="country" name="country" value="country" ><br>
-        </div>
+                <label for="name">email</label><br>
+                <input type="text" id="email" name="email" placeholder="email" required><br>
+            </div>
             <div class="input_section">
-            <label for="name">email</label><br>       
-            <input type="email" id="email" name="email" value="email"><br>
+                <label for="password">password</label><br>
+                <input type="password" id="password" name="password" placeholder="password" required><br>
+            </div>
         </div>
-            <div class="input_section">
-            <label for="password">password</label><br>
-            <input type="password" id="password" name="password" value="password" ><br>  
-        </div> 
-            <div class="input_section">                
-            <a><button href="" class="form_button" value="Sign Up">Sign Up</a>
-            </div>   
-          </form> 
+        <div class="input_section">
+            <label for="password_confirmation">password confirmation</label><br>
+            <input type="password_confirmation" id="password confirmation" name="password_confirmation" placeholder="password_confirmation" required><br>
+        </div>
+        <div class="input_section">
+            <a><button href="" class="form_button">Sign Up</button></a>
+        </div>
+    </form>
+    <script src="script.js"></script>
 </body>
+
 </html>
