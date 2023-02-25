@@ -4,7 +4,7 @@ body{
     margin:0;
     padding:0;
     color: #EB4747;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Oxygen Mono', monospace;
 }
 header{
@@ -35,4 +35,23 @@ nav>img{
     padding-top: 7%;
     display: flex;
     justify-content: center;
+}
+
+.form_input{
+    border: none;
+    width:50%;
+    height:50px;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.form_button{
+    background-color: #EB4747;
+    color: #FFDEDE;
+    width: 50%;
 }
