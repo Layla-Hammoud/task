@@ -1,9 +1,9 @@
 const email = document.getElementById("email");
 const password = document.getElementById("password");
-const form = document.getElementById("sign_up_form");
+const button = document.getElementById("button");
 const error_paragraph = document.getElementById("error_message")
 const confirm_password=document.getElementById("password_confirmation")
-form.addEventListener("submit", validation);
+button.addEventListener("click", validation);
 function validation(e) {
     let error_message = [];
     let mailformat = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
