@@ -5,7 +5,6 @@ function reverseString(){
     array_reverse=array_reverse.split("")
     array_reverse.reverse()
     string_reverse=array_reverse.join("")
-    console.log(typeof string_reverse)
     reverse_text.innerHTML=`${string_reverse}`
 }
 reverseString()
