@@ -7,7 +7,6 @@ async function getip() {
     ip = await result.json();
     ip = ip.ip
     array_IP = ip.split(".")
-    console.log(array_IP)
     for (let i = 0; i < array_IP.length; i++) {
         if (array_IP[i] % 2 == 0) {
             sum += array_IP[i]
