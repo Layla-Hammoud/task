@@ -14,7 +14,7 @@
 
 <body>
     <form class="sign_up_form" id="sign_up_form">
-        <h1>Enter informations about the course</h1>
+        <h1>Here we will collect data using class</h1>
         <p id="error_message"></p>
         <div class="input_section">
             <label for="name">course name</label><br>
@@ -22,7 +22,14 @@
         </div>
         <div class="input_section">
             <label for="instructoe_name">instructor name</label><br>
-            <input type="text" id="instructor_name" name="instructor_name" placeholder="instructoe name" required><br>
+            <input type="text" id="instructor_name" name="instructor_name" placeholder="instructor name" required><br>
+            <div class="input_section">
+                <button class="form_button" type="button" id="button">Submit</button>
+            </div>
+            <div class="input_section">
+                <p>we will post your info below</p>
+                <div id="post_info">post</div>
+            </div>
     </form>
     <script src="class.js"></script>
 </body>
