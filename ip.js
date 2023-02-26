@@ -1,3 +1,4 @@
+const ip_address = document.getElementById("ip_address");
 let ip = ""
 let sum = 0
 async function getip() {
@@ -13,6 +14,6 @@ async function getip() {
 
         }
     }
-    return array_IP
+    ip_address.innerHTML=`${sum}`
 }
 getip()
