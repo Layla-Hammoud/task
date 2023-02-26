@@ -100,3 +100,8 @@ margin: 10px;
     width:100vw;
     justify-content: space-around;
 }
+.code_container{
+    background-color: rgb(13, 13, 66);
+    color:white;
+    margin-left: 10px;
+}
